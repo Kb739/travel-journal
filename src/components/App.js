@@ -12,8 +12,8 @@ function App() {
       </>)
   }
   return (
-    <div>
-      <Header/>
+    <div id="app">
+      <Header />
       <div className='main'>
         {cards}
       </div>
