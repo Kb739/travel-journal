@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
     max-height: 25px;
-
 }
 
 .loc>h3 {
@@ -34,13 +33,20 @@ body {
     font-size: 12px;
     letter-spacing: 0.17em;
     text-transform: uppercase;
+    padding-left: 3px;
+}
+.loc>a{
+    text-decoration-line: none;
+    color: #918E9B;
+    font-size: 11px;
+    padding-left: 10px;
 }
 
 .loc-icon {
     width: 15px;
 }
 .title{
-    margin-top:0;
+    margin-top:5px;
     font-size: 25px;
 }
 .duration{

@@ -8,6 +8,7 @@ export default function card(props) {
                 <div className='loc'>
                     <img className="loc-icon" src={require('../images/map-marker.png')} alt='locationIcon' />
                     <h3>{props.location}</h3>
+                    <a href={props.googleMapsUrl}>View on Google Maps</a>
                 </div>
                 <h1 className="title">{props.title}</h1>
                 <h3 className="duration">{props.startDate} - {props.endDate}</h3>
