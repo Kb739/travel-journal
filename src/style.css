@@ -56,7 +56,7 @@ header {
     font-size: 12px;
     letter-spacing: 0.17em;
     text-transform: uppercase;
-    padding-left: 3px;
+    padding-left: 4px;
 }
 
 .loc>a {
@@ -71,18 +71,20 @@ header {
 }
 
 .title {
-    margin-block: 5px 10px;
+    margin-block:5px 0;
     font-size: 25px;
 }
 
 .duration {
     font-size: 12px;
+    margin-bottom: 0px;
 }
 
 .description {
     font-size: 11px;
     max-width: 326px;
     color: #2b283a;
+    margin-top: 6px;
 }
 
 .main {
