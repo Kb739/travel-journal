@@ -55,4 +55,13 @@ body {
 .description{
     font-size: 11px;
     max-width: 326px;
+    color:#2b283a;
+}
+.main{
+display: flex;
+flex-direction: column;
+gap:18px;
+}
+.line{
+    border: 1px solid #F5F5F5;
 }
