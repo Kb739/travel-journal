@@ -1,5 +1,6 @@
 import data from '../data';
 import Card from './Card'
+import Header from './Header'
 function App() {
   const cards = [];
   for (let i = 0; i < data.length; i++) {
@@ -12,6 +13,7 @@ function App() {
   }
   return (
     <div>
+      <Header/>
       <div className='main'>
         {cards}
       </div>
