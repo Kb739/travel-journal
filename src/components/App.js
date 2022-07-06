@@ -1,8 +1,9 @@
+import data from '../data';
 import Card from './Card'
 function App() {
   return (
-  <div>
-    <Card/>
+  <div className='main'>
+    <Card {...data[0]}/>
   </div>
   );
 }
